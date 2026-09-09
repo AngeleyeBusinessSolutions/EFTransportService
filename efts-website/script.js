@@ -88,8 +88,8 @@ document.addEventListener("DOMContentLoaded", function () {
      ------------------------------------------------------- */
   var emailBtn = document.getElementById("emailBtn");
   if (emailBtn) {
-    var user = "elesterflores06";
-    var domain = "gmail.com";
+    var user = "info";
+    var domain = "taxipanamacity.com";
     var subject = "Quote%20Request%20-%20E.F.%20Transport%20Service";
     emailBtn.setAttribute("href", "mailto:" + user + "@" + domain + "?subject=" + subject);
   }

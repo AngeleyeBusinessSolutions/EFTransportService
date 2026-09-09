@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>E.F. Transport Service | Airport Transfers & Private Tours in Panama City</title>
+  <meta name="description" content="Reliable 24/7 airport transfers and private tours in Panama City with E.F. Transport Service. Professional, safe, English-speaking driver. All major credit cards accepted." />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+  <!-- Open Graph (link previews on WhatsApp/Facebook) -->
+  <meta property="og:title" content="E.F. Transport Service | Panama City" />
+  <meta property="og:description" content="Reliable 24/7 airport transfers & private tours in Panama City." />
+  <meta property="og:image" content="images/hero.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://taxipanamacity.com" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="images/logo.png" alt="E.F. Transport Service" />
+      </a>
+
+      <!-- Mobile menu toggle -->
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#services" data-en="Services" data-es="Servicios">Services</a>
+        <a href="#tours" data-en="Tours" data-es="Tours">Tours</a>
+        <a href="#about" data-en="About" data-es="Nosotros">About</a>
+        <a href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
+
+        <!-- Language switcher -->
+        <span class="lang-switch">
+          <button id="langEN" class="lang-btn active" type="button">EN</button>
+          <span class="lang-divider">|</span>
+          <button id="langES" class="lang-btn" type="button">ES</button>
+        </span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 data-en="Reliable Airport Transfers &amp; Private Tours in Panama City — 24/7"
+          data-es="Traslados Confiables al Aeropuerto y Tours Privados en la Ciudad de Panamá — 24/7">
+        Reliable Airport Transfers &amp; Private Tours in Panama City — 24/7
+      </h1>
+
+      <p class="hero-sub"
+         data-en="Professional, safe, and punctual. Skip the stress — travel with a trusted local driver who knows Panama inside out."
+         data-es="Profesional, seguro y puntual. Olvídese del estrés — viaje con un conductor local de confianza que conoce Panamá a fondo.">
+        Professional, safe, and punctual. Skip the stress — travel with a trusted local driver who knows Panama inside out.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary"
+           data-en="Get a Free Quote" data-es="Solicite una Cotización">
+          Get a Free Quote
+        </a>
+        <a href="#services" class="btn btn-outline"
+           data-en="See Our Services" data-es="Ver Nuestros Servicios">
+          See Our Services
+        </a>
+      </div>
+
+      <div class="hero-trust">
+        <span data-en="★★★★★ Trusted by travelers worldwide"
+              data-es="★★★★★ La confianza de viajeros de todo el mundo">
+          ★★★★★ Trusted by travelers worldwide
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <h2 data-en="Our Services" data-es="Nuestros Servicios">Our Services</h2>
+        <p class="section-intro"
+           data-en="Whatever brings you to Panama, we'll get you there comfortably and on time."
+           data-es="Sea cual sea el motivo de su viaje a Panamá, lo llevaremos con comodidad y puntualidad.">
+          Whatever brings you to Panama, we'll get you there comfortably and on time.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+
+        <!-- Service 1: Airport -->
+        <article class="card">
+          <div class="card-img">
+            <img src="images/service-airport.jpg" alt="Airport arrivals in Panama City" />
+          </div>
+          <div class="card-body">
+            <h3 data-en="Airport Transfers" data-es="Traslados al Aeropuerto">Airport Transfers</h3>
+            <p data-en="Door-to-door pickups and drop-offs at Tocumen International, available 24/7. We track your flight, so a delay is never a problem — your driver will be waiting."
+               data-es="Recogidas y entregas puerta a puerta en el Aeropuerto Internacional de Tocumen, disponible 24/7. Monitoreamos su vuelo, así que un retraso nunca es problema — su conductor lo estará esperando.">
+              Door-to-door pickups and drop-offs at Tocumen International, available 24/7. We track your flight, so a delay is never a problem — your driver will be waiting.
+            </p>
+          </div>
+        </article>
+
+        <!-- Service 2: City / Private taxi -->
+        <article class="card">
+          <div class="card-img">
+            <img src="images/service-city.jpg" alt="Panama City skyline with taxi" />
+          </div>
+          <div class="card-body">
+            <h3 data-en="Private City Rides" data-es="Viajes Privados en la Ciudad">Private City Rides</h3>
+            <p data-en="Your own private driver for meetings, hotels, restaurants, or errands across Panama City. Comfortable, air-conditioned, and always on schedule."
+               data-es="Su propio conductor privado para reuniones, hoteles, restaurantes o diligencias por toda la Ciudad de Panamá. Cómodo, con aire acondicionado y siempre puntual.">
+              Your own private driver for meetings, hotels, restaurants, or errands across Panama City. Comfortable, air-conditioned, and always on schedule.
+            </p>
+          </div>
+        </article>
+
+        <!-- Service 3: Tours -->
+        <article class="card">
+          <div class="card-img">
+            <img src="images/service-tours.jpg" alt="Panamá sign landmark" />
+          </div>
+          <div class="card-body">
+            <h3 data-en="Trips &amp; Tours" data-es="Viajes y Tours">Trips &amp; Tours</h3>
+            <p data-en="Discover Panama with a local who knows it best. From the Canal to hidden beaches, we build the day around what you want to see."
+               data-es="Descubra Panamá con un local que la conoce mejor que nadie. Desde el Canal hasta playas escondidas, armamos el día en torno a lo que usted quiere ver.">
+              Discover Panama with a local who knows it best. From the Canal to hidden beaches, we build the day around what you want to see.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+      <!-- ================= TOURS ================= -->
+    <section class="section section-alt" id="tours">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-en="Featured Trips &amp; Tours" data-es="Viajes y Tours Destacados">Featured Trips &amp; Tours</h2>
+          <p class="section-intro"
+             data-en="These are just a few favorites to spark ideas. Tell us what you'd like to see and we'll build a custom day around you — almost any request is possible."
+             data-es="Estos son solo algunos favoritos para inspirarlo. Díganos qué le gustaría ver y armaremos un día a su medida — casi cualquier solicitud es posible.">
+            These are just a few favorites to spark ideas. Tell us what you'd like to see and we'll build a custom day around you — almost any request is possible.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Tour 1: Canal -->
+          <article class="card">
+            <div class="card-img">
+              <img src="images/tour-canal.jpg" alt="Panama Canal at Miraflores Locks" />
+            </div>
+            <div class="card-body">
+              <h3 data-en="Panama Canal &amp; Miraflores" data-es="Canal de Panamá y Miraflores">Panama Canal &amp; Miraflores</h3>
+              <p data-en="Watch giant ships pass through the famous locks and learn the story behind one of the world's engineering wonders."
+                 data-es="Vea pasar enormes barcos por las famosas esclusas y conozca la historia detrás de una de las maravillas de la ingeniería mundial.">
+                Watch giant ships pass through the famous locks and learn the story behind one of the world's engineering wonders.
+              </p>
+            </div>
+          </article>
+
+          <!-- Tour 2: Casco Viejo -->
+          <article class="card">
+            <div class="card-img">
+              <img src="images/tour-casco.jpg" alt="Casco Viejo historic district" />
+            </div>
+            <div class="card-body">
+              <h3 data-en="Casco Viejo" data-es="Casco Viejo">Casco Viejo</h3>
+              <p data-en="Wander the colorful colonial streets, plazas, and rooftop views of Panama City's charming old town."
+                 data-es="Recorra las coloridas calles coloniales, plazas y vistas desde las azoteas del encantador casco antiguo de la Ciudad de Panamá.">
+                Wander the colorful colonial streets, plazas, and rooftop views of Panama City's charming old town.
+              </p>
+            </div>
+          </article>
+
+          <!-- Tour 3: Amador Causeway -->
+          <article class="card">
+            <div class="card-img">
+              <img src="images/tour-causeway.jpg" alt="Amador Causeway with city skyline" />
+            </div>
+            <div class="card-body">
+              <h3 data-en="Amador Causeway" data-es="Calzada de Amador">Amador Causeway</h3>
+              <p data-en="Enjoy breezy ocean views, the skyline, and the Biomuseo along this scenic strip connecting four islands."
+                 data-es="Disfrute de brisas marinas, el horizonte de la ciudad y el Biomuseo a lo largo de esta pintoresca calzada que une cuatro islas.">
+                Enjoy breezy ocean views, the skyline, and the Biomuseo along this scenic strip connecting four islands.
+              </p>
+            </div>
+          </article>
+
+          <!-- Tour 4: Beach -->
+          <article class="card">
+            <div class="card-img">
+              <img src="images/tour-beach.jpg" alt="Tropical beach near Panama City" />
+            </div>
+            <div class="card-body">
+              <h3 data-en="Beach Getaways" data-es="Escapadas a la Playa">Beach Getaways</h3>
+              <p data-en="Trade the city for turquoise water and white sand. We'll take you to the coast and back at your own pace."
+                 data-es="Cambie la ciudad por aguas turquesas y arena blanca. Lo llevamos a la costa y de regreso a su propio ritmo.">
+                Trade the city for turquoise water and white sand. We'll take you to the coast and back at your own pace.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="tours-cta">
+          <a href="#contact" class="btn btn-primary"
+             data-en="Plan My Custom Trip" data-es="Planear Mi Viaje a Medida">Plan My Custom Trip</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT / JUNIER ================= -->
+    <section class="section" id="about">
+      <div class="container about-inner">
+        <div class="about-photo">
+          <img src="images/junier.jpg" alt="Junier, your driver and guide" />
+        </div>
+        <div class="about-text">
+          <h2 data-en="Meet Junier — Your Driver &amp; Guide" data-es="Conozca a Junier — Su Conductor y Guía">Meet Junier — Your Driver &amp; Guide</h2>
+          <p data-en="With years behind the wheel in Panama City, Junier treats every guest like family. Punctual, friendly, and fluent in English, he takes the guesswork out of getting around — whether it's a late-night airport pickup or a full day exploring the country."
+             data-es="Con años de experiencia al volante en la Ciudad de Panamá, Junier trata a cada huésped como de la familia. Puntual, amable y con inglés fluido, hace que moverse sea fácil — ya sea una recogida nocturna en el aeropuerto o un día completo explorando el país.">
+            With years behind the wheel in Panama City, Junier treats every guest like family. Punctual, friendly, and fluent in English, he takes the guesswork out of getting around — whether it's a late-night airport pickup or a full day exploring the country.
+          </p>
+          <ul class="about-list">
+            <li data-en="✔ Available 24 hours a day, 7 days a week" data-es="✔ Disponible 24 horas al día, 7 días a la semana">✔ Available 24 hours a day, 7 days a week</li>
+            <li data-en="✔ Safe, clean, air-conditioned vehicle" data-es="✔ Vehículo seguro, limpio y con aire acondicionado">✔ Safe, clean, air-conditioned vehicle</li>
+            <li data-en="✔ Flight tracking &amp; flexible pickups" data-es="✔ Seguimiento de vuelos y recogidas flexibles">✔ Flight tracking &amp; flexible pickups</li>
+            <li data-en="✔ All major credit cards accepted" data-es="✔ Se aceptan todas las tarjetas de crédito principales">✔ All major credit cards accepted</li>
+          </ul>
+          <a href="https://www.trustpilot.com/review/taxipanamacity.com" target="_blank" rel="noopener"
+             class="trust-link" data-en="★★★★★ Read our Trustpilot reviews" data-es="★★★★★ Lea nuestras reseñas en Trustpilot">
+            ★★★★★ Read our Trustpilot reviews
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact-inner">
+        <div class="section-head">
+          <h2 data-en="Book Your Ride Today" data-es="Reserve su Viaje Hoy">Book Your Ride Today</h2>
+          <p class="section-intro"
+             data-en="Get a fast, free quote. Message us on WhatsApp for the quickest reply, or send an email — we'll get right back to you."
+             data-es="Obtenga una cotización rápida y gratuita. Escríbanos por WhatsApp para la respuesta más rápida, o envíe un correo — le responderemos enseguida.">
+            Get a fast, free quote. Message us on WhatsApp for the quickest reply, or send an email — we'll get right back to you.
+          </p>
+        </div>
+
+        <div class="contact-buttons">
+          <!-- WhatsApp -->
+          <a href="https://wa.me/50767888467?text=Hello%20E.F.%20Transport%20Service%2C%20I%27d%20like%20a%20quote."
+             class="btn btn-whatsapp" target="_blank" rel="noopener"
+             data-en="💬 Chat on WhatsApp" data-es="💬 Chatear por WhatsApp">💬 Chat on WhatsApp</a>
+
+          <!-- Email (populated by script.js to reduce bot scraping) -->
+          <a href="#" id="emailBtn" class="btn btn-outline"
+             data-en="✉ Email Us" data-es="✉ Envíenos un Correo">✉ Email Us</a>
+        </div>
+
+        <div class="contact-extra">
+          <p data-en="Or call us directly, anytime:" data-es="O llámenos directamente, a cualquier hora:">Or call us directly, anytime:</p>
+          <a href="tel:+50767888467" class="contact-phone">+507 6788-8467</a>
+        </div>
+
+        <div class="payments">
+          <p data-en="We accept all major credit cards" data-es="Aceptamos todas las tarjetas de crédito principales">We accept all major credit cards</p>
+          <img src="images/credit-cards.png" alt="Major credit cards accepted" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <img src="images/logo.png" alt="E.F. Transport Service" class="footer-logo" />
+        <p class="footer-tag"
+           data-en="Reliable airport transfers &amp; private tours in Panama City — 24/7."
+           data-es="Traslados confiables al aeropuerto y tours privados en la Ciudad de Panamá — 24/7.">
+          Reliable airport transfers &amp; private tours in Panama City — 24/7.
+        </p>
+        <p class="footer-copy">&copy; <span id="year"></span> E.F. Transport Service. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+        <p class="site-credit">
+          <span data-en="Site by" data-es="Sitio por">Site by</span>
+          <a href="https://www.angeleye.llc" target="_blank" rel="noopener">Angeleye</a>
+        </p>
+      </div>
+    </footer>
+
+
+    <!-- ================= STICKY CALL BUTTON ================= -->
+    <a href="tel:+50767888467" class="sticky-call" aria-label="Call now" data-en="📞 Call Now" data-es="📞 Llamar Ahora">📞 Call Now</a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
